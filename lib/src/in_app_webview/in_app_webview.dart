@@ -852,7 +852,7 @@ class _InAppWebViewState extends State<InAppWebView> {
     required Map<String, dynamic> creationParams,
   }) {
     if (hybridComposition) {
-      return PlatformViewsService.initExpensiveAndroidView(
+      return PlatformViewsService.initAndroidView(
         id: id,
         viewType: viewType,
         layoutDirection: layoutDirection,
